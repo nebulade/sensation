@@ -1,0 +1,32 @@
+{
+  "name": "sensation",
+  "version": "0.0.1",
+  "description": "Linux sensors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nebulade/sensation.git"
+  },
+  "keywords": [
+    "lm_sensors",
+    "sensors"
+  ],
+  "author": {
+    "name": "Johannes Zellner",
+    "email": "webmaster@nebulon.de"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nebulade/sensation/issues"
+  },
+  "homepage": "https://github.com/nebulade/sensation",
+  "dependencies": {
+    "string": "~1.7.0"
+  },
+  "bin": {
+    "senstation": "./bin/senstation.js"
+  }
+}
