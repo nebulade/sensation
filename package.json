@@ -1,6 +1,6 @@
 {
   "name": "sensation",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Linux sensors",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,6 @@
     "string": "~1.7.0"
   },
   "bin": {
-    "senstation": "./bin/sensation.js"
+    "sensation": "./bin/sensation.js"
   }
 }
