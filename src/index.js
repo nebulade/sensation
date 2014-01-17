@@ -13,12 +13,12 @@ function LMSensorsProvider() {
 }
 util.inherits(LMSensorsProvider, events.EventEmitter);
 
-LMSensorsProvider.prototype.start = function () {
+LMSensorsProvider.prototype.start = function (interval) {
     var that = this;
 
     this._interval = setInterval(function () {
         that.fetchData();
-    }, 1000);
+    }, interval || 1000);
 };
 
 LMSensorsProvider.prototype.stop = function () {
