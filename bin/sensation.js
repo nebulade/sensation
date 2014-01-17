@@ -37,4 +37,4 @@ provider.on('temperature', function (temperature) {
     }
 });
 
-provider.start(p.interval || 1000);
+provider.start((1000*p.interval) || 1000);
